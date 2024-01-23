@@ -6,6 +6,7 @@ import java.util.Map;
 public class ChainDictionary {
 	private Map<String, List<String>> dictionary = new HashMap<String, List<String>>();
 
+	// To add word
 	public void addWord(String word) {
 		if (dictionary.containsKey((word)))
 			return;
